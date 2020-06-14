@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#textbox {
+    text-align: right;
+    grid-area: input;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#zero {
+    grid-area: zero;
+}
+
+#decimal {
+    grid-area: decimal;
+}
+
+#divide {
+    grid-area: divide;
+}
+
+#multiply {
+    grid-area: multiply;
+}
+
+#minus {
+    grid-area: subtract;
+}
+
+#plus {
+    grid-area: add;
+}
+
+#clear {
+    grid-area: clear;
+}
+
+#backspace {
+    grid-area: backspace;
+}
+
+#equals {
+    grid-area: equals;
+}
+
+
+.calculator {
+    display: grid;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5px;
+    border: solid 2px black;
+    grid-template-areas:
+        'input input input input'
+        'clear clear backspace divide'
+        'seven eight nine multiply'
+        'four five six subtract'
+        'one two three add'
+        'decimal zero equals equals';
+
+
+}
