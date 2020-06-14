@@ -1,5 +1,4 @@
 html {
-    font-size: 62.5%;
     box-sizing: border-box;
 }
 
@@ -65,6 +64,7 @@ body {
 
 #decimal {
     grid-area: decimal;
+    font-size: 2rem;
 }
 
 #divide {
@@ -98,8 +98,8 @@ body {
 
 .calculator {
     display: grid;
-    height: 20rem;
-    width: 20rem;
+    height: 40rem;
+    width: 30rem;
     border-radius: 5px;
     border: solid 2px black;
     grid-template-areas:
@@ -109,6 +109,4 @@ body {
         'four five six subtract'
         'one two three add'
         'decimal zero equals equals';
-
-
 }
